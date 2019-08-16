@@ -8,3 +8,7 @@ def line(array)
   end
 end
 
+take_a_number(array, name)
+  new_array = []
+  counter = 1  
+  array.each
