@@ -8,12 +8,13 @@ def line(array)
   end
 end
 
-take_a_number(marray, name)
+take_a_number(array, name)
   new_array = []
   counter = 1  
-  marray.each do |name| 
+  array.each do |name| 
     puts ("#{name} your number is #{counter}!")
   counter += 1 
 end
 return new_array
 end
+
