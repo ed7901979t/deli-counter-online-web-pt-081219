@@ -13,18 +13,17 @@ def line(array) # this was the one I figured out
   end
 end
 
-take_a_number(array, name)
-  new_array = []
-  counter = 1  
-  array.each do |name| 
-    puts ("#{name} your number is #{counter}!")
-  counter += 1 
-end
-return new_array
+def take_a_number(line, new_person)
+  line.push(new_person) 
+  puts "Welcome, #{new_person}. You are number #{line.length} in line."
 end
 
-def now_serving(array)
-  puts "The next person in line"
-  array.pop
-  puts "There is nobody waiting to be served!"
+ 
+
+def now_serving(line)
+  if line.length == 0  
+    puts"There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{line[0]}."  
+  end
 end
