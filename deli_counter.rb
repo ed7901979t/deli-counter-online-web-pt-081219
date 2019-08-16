@@ -18,3 +18,6 @@ end
 return new_array
 end
 
+now_serving(array)
+  puts "The next person in line"
+  
