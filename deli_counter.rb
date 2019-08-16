@@ -18,6 +18,8 @@ end
 return new_array
 end
 
-now_serving(array)
+def now_serving(array)
   puts "The next person in line"
-  
+  array.pop
+  puts "There is nobody waiting to be served!"
+end
