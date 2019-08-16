@@ -11,4 +11,9 @@ end
 take_a_number(array, name)
   new_array = []
   counter = 1  
-  array.each
+  array.each do |name| 
+    puts ("#{name} your number is #{counter}!")
+  counter += 1 
+end
+return new_array
+end
