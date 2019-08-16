@@ -1,8 +1,8 @@
 # Write your code here.
-def line  
-  katz_deli = []
-  if katz_deli.length > 0 
-    return katz_deli
+def line(array)  
+   
+  if array.length > 0 
+    return array
   else 
     return "The line is currently empty"
   end
