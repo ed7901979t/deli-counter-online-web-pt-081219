@@ -3,7 +3,7 @@ def line(array)
    
   if array.size > 0 
     return array
-  else 
+  else
     return "The line is currently empty"
   end
 end
