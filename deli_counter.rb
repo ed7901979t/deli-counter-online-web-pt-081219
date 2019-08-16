@@ -1,10 +1,15 @@
 # Write your code here.
-def line(array)  
-   
-  if array.size > 0 
-    return array
+def line(array) # this was the one I figured out
+  if array.length >= 1
+    nuarray = []
+    counter = 1 
+    array.each do |name|
+      nuarray.push("#{counter}. #{name}")
+      counter += 1 
+    end 
+    puts "The line is currently: #{nuarray.join(" ")}"
   else
-    return "The line is currently empty"
+    puts "The line is currently empty."
   end
 end
 
